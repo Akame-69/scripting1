@@ -1,0 +1,140 @@
+header,
+footer {
+    background-image: url(.../image);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: bottom;
+
+
+    background-color: #FBD8E0;
+    /*center align the text*/
+    text-align: center;
+
+    /*add top and bottom padding*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    /*change the text color to white*/
+    color: white;
+}
+
+.bg-purple {
+    background-color: blueviolet;
+}
+
+h1 {
+    background-color: #CF90C1;
+}
+
+body {
+    /*change background color*/
+    background: #000000;
+    background: linear-gradient(180deg, #000000 0%, #3300ff 50%, #7700ff 100%);
+}
+
+.bg-dark {
+    background-color: #8D80B0;
+    color: white;
+}
+
+.bg-gray {
+    background-color: #8397C4;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    /*max-width*/
+    max-width: 1000px;
+
+    /*centering the whole section*/
+    margin: 0 auto;
+
+    /*add top and bottom padding*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    /*centering the whole section*/
+    margin: 0 auto;
+    max-width: 1000px;
+    /*add top and bottom padding*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*white text*/
+    color: white;
+    /*add space inside section*/
+    padding: 10px;
+    /* add space after the section */
+    margin-bottom: 20px;
+    /*drop shadow*/
+    box-shadow: 15px 5px 19px 0px #000000b8;
+    -webkit-box-shadow: 15px 5px 19px 0px #000000b8;
+    /*stop content from overflowing*/
+    overflow: hidden;
+}
+
+/*float images to the left*/
+/*only images inside of section*/
+section img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/*************navbar************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #02b89f;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+/*****style our regular links**********/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b202b8;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+
+
+#about,
+header {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: rgb(9, 130, 236);
+}
+
+footer i {
+    font-size: large;
+
+}
